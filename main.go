@@ -16,7 +16,6 @@ func (p Point) String() string {
 func (p Point) Distance(q Point) float64 {
 	x := math.Pow(float64(p.X-q.X), 2)
 	y := math.Pow(float64(p.Y-q.Y), 2)
-
 	return math.Sqrt(x + y)
 }
 
